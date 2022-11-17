@@ -1,5 +1,14 @@
 Algoritmo Romanos
+        Escribir "*************************************";
+
+	Escribir "* Algoritmo: Numeros Romanos.       *";
+
+	Escribir "* Autor: Brayan Daniel Mendiola G   *";
+
+	Escribir "*************************************";
+	
 	Definir a,c,d,u,n,m Como Entero;
+	
 	Escribir "Escribe un numero";
 	leer n;
 	c <- trunc(n/100) mod 10;
